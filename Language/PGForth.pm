@@ -8,7 +8,7 @@ package Language::PGForth;
 # Forth in Perl5
 # Copyright (c) by Peter Gallasch,
 # municipality of Vienna, Austria
-# Version 1.2
+# Version 1.3
 #
 # the code may be used, copied and redistributed
 # under the same terms as perl
