@@ -1,6 +1,6 @@
 The code in this package is
 
-Copyright (c) 1996 Peter Gallasch <gal@adv.magwien.gv.at>
+Copyright (c) 1996,2007 Peter Reif (Gallasch) <gal@adv.magwien.gv.at>
 
 and may be used, copied and redistributed under the same terms as perl 
 (see the files README, Copying and Artistic in the perl distribution).
@@ -16,7 +16,7 @@ to minimize the effort of calling one language from another.
 Name
 ----
 
-PG are my initials, I didn't want to call it Forth.pm.
+PG are my initials.
 
 
 Contents

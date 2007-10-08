@@ -1,15 +1,14 @@
-#! /usr/local/bin/perl -w
+#! /usr/bin/perl -w
 
 require 5;
  
-package PGForth;
+package Language::PGForth;
 
 #######################################
 # Forth in Perl5
 # Copyright (c) by Peter Gallasch,
 # municipality of Vienna, Austria
-# Version 1.0
-# 14.11.1996
+# Version 1.2
 #
 # the code may be used, copied and redistributed
 # under the same terms as perl
@@ -416,3 +415,28 @@ forth (<<'END');
 END
 
 1;
+
+__END__
+
+=head1 NAME
+
+B<Language::PGForth> - Forth Interpreter in Perl
+
+=head1 DESCRIPTION
+
+PGForth is a Forth interpreter written in Perl.  It is very simple and tries
+to minimize the effort of calling one language from another.
+
+=head1 EXAMPLES
+
+see file "run" in distribution
+
+=head1 BUGS
+
+No error handling at all.
+
+=head1 AUTHOR
+
+Peter Gallasch <gal@adv.magwien.gv.at>, Municipality of Vienna, Austria
+
+=cut
